@@ -23,3 +23,7 @@ export GOPATH=/opt/go/inner-text-searcher/smith-waterman-distance
 cd smith-waterman-distance
 go install -v -gcflags "-N -l" ./...
 cd ..
+export GOPATH=/opt/go/inner-text-searcher/optimal-sring-alignment-distance
+cd optimal-sring-alignment-distance
+go install -v -gcflags "-N -l" ./...
+cd ..
