@@ -1,4 +1,4 @@
-build_targets=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<build_targets xmlns\="com.googlecode.goclipse.core">\n<target config\="./... \#build" enabled\="true"/>\n<target config\="./... \#build-tests" enabled\="false"/>\n<target config\="./... \#[run-tests]" enabled\="false"/>\n</build_targets>\n
+build_targets=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<build_targets xmlns\="com.googlecode.goclipse.core">\n<target config\="./... \#build" enabled\="true"/>\n<target config\="./... \#build-tests" enabled\="true" exe_path\="test -c -v -tags steelzackstringdistance -gcflags &quot;-N -l&quot; ./..." options\="test -c -v -tags steelzackstringdistance -gcflags &quot;-N -l&quot; ./... "/>\n<target config\="./... \#[run-tests]" enabled\="false" exe_path\="test -v -tags steelzackstringdistance -gcflags &quot;-N -l&quot; ./..." options\="test -v -tags steelzackstringdistance -gcflags &quot;-N -l&quot; ./..."/>\n</build_targets>\n
 com.googlecode.goclipse.documentor.path=/usr/lib/go/bin/godoc
 com.googlecode.goclipse.formatter.path=/usr/lib/go/bin/gofmt
 com.googlecode.goclipse.goarch=
