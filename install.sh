@@ -6,4 +6,4 @@ go env
 
 echo ---- Loading commong libraries
 go get "github.com/steelzack/string.distance"
-
+go get "github.com/stretchr/testify"

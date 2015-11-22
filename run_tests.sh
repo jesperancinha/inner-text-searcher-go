@@ -7,10 +7,8 @@ go env
 echo ---- Loading commong libraries
 go get "github.com/stretchr/testify/assert"
 echo -------- Loaded github.com/stretchr/testify/assert
-go get "github.com/stretchr/objx"
-echo -------- Loaded github.com/stretchr/objx
 
-echo ---- Creating pkg builds
-cd string-distance 
-go install -v -gcflags "-N -l" ./...
+echo ---- Running tests
+cd string-distance
+go test -v ./... -tags "steelzackstringdistance" 
 cd ..
