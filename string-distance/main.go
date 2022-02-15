@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/steelzack/string.distance/algorithms"
+	"github.com/jesperancinha/string.distance/algorithms"
 	"log"
 )
 
 func main() {
 	optaln := new(algorithms.OptAli)
 	log.Println(optaln.CalculateDistance("SimpleTest", "SimplTest"))
-	
+
 	optaln = new(algorithms.OptAli)
 	log.Println(optaln.CalculateDistance("ATCGT", "TGGTG"))
 
@@ -17,12 +17,12 @@ func main() {
 
 	damleu := new(algorithms.DamLev)
 	log.Println(damleu.CalculateDistanceWithAlphabet("SimpleTest", "SimplTest", 20))
-	
+
 	damleu = new(algorithms.DamLev)
 	log.Println(damleu.CalculateDistanceWithAlphabet("ATCGT", "TGGTG", 20))
 
 	//gap, missmatchscore, exactscore
-	
+
 	neewun := algorithms.NewNeeWun(-2, 1, 1)
 	log.Println(neewun.CalculateDistance("ATCGT", "TGGTG"))
 
