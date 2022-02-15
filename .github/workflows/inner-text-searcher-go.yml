@@ -21,10 +21,12 @@ jobs:
         pip3 install requests
 
     - name: Install Go Packages
-      run: cd points && source setup.sh && go get -t -v github.com/stretchr/testify/assert
+      run: cd string-distance &&
+           source setup.sh && go get -t -v github.com/stretchr/testify/assert &&
+           source setup.sh && go get -t -v github.com/jesperancinha/string.distance/algorithms
 
     - name: Run Go Tests
-      run: cd points && source setup.sh && go test -coverprofile=../coverage.out
+      run: cd string-distance && source setup.sh && go test -coverprofile=../coverage.out
 
     - name: Send reports
       run: omni_coveragereporter_python.py
