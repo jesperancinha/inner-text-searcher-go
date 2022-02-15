@@ -7,6 +7,8 @@
 
 [![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
 
+[![inner-text-searcher-go](https://github.com/jesperancinha/inner-text-searcher-go/actions/workflows/inner-text-searcher-go.yml/badge.svg)](https://github.com/jesperancinha/inner-text-searcher-go/actions/workflows/inner-text-searcher-go.yml)
+
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/829255fdd0f64066bd42a02eb49040d8)](https://www.codacy.com/gh/jesperancinha/inner-text-searcher-go/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/inner-text-searcher-go&amp;utm_campaign=Badge_Grade)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/829255fdd0f64066bd42a02eb49040d8)](https://www.codacy.com/gh/jesperancinha/inner-text-searcher-go/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jesperancinha/inner-text-searcher-go&utm_campaign=Badge_Coverage)
