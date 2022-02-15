@@ -9,7 +9,9 @@
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/829255fdd0f64066bd42a02eb49040d8)](https://www.codacy.com/gh/jesperancinha/inner-text-searcher-go/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/inner-text-searcher-go&amp;utm_campaign=Badge_Grade)
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/829255fdd0f64066bd42a02eb49040d8)](https://www.codacy.com/gh/jesperancinha/inner-text-searcher-go/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jesperancinha/inner-text-searcher-go&utm_campaign=Badge_Coverage)
 [![Coverage Status](https://coveralls.io/repos/github/jesperancinha/inner-text-searcher-go/badge.svg?branch=master)](https://coveralls.io/github/jesperancinha/inner-text-searcher-go?branch=master)
+[![codecov](https://codecov.io/gh/jesperancinha/inner-text-searcher-go/branch/master/graph/badge.svg?token=c5Ul3LFS1M)](https://codecov.io/gh/jesperancinha/inner-text-searcher-go)
 
 [![GitHub language count](https://img.shields.io/github/languages/count/jesperancinha/inner-text-searcher-go.svg)](#)
 [![GitHub top language](https://img.shields.io/github/languages/top/jesperancinha/inner-text-searcher-go.svg)](#)
